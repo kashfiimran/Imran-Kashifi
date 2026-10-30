@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "name": "v86",
+      "repository": "https://github.com/copy/v86",
+      "purpose": "Browser x86 emulation and WebAssembly JIT execution",
+      "license": "Simplified BSD (BSD-2-Clause)",
+      "version": "v86-latest",
+      "commit": "master-release"
+    },
+    {
+      "name": "v86 x64 Research",
+      "repository": "https://github.com/TheEvalon/v86_x64",
+      "purpose": "Experimental x86_64 long-mode research in browser WebAssembly",
+      "license": "Simplified BSD (BSD-2-Clause)",
+      "version": "experimental",
+      "commit": "master"
+    },
+    {
+      "name": "WebVM",
+      "repository": "https://github.com/leaningtech/webvm",
+      "purpose": "Browser Linux virtual machine reference and virtual filesystem sandboxing",
+      "license": "Apache-2.0",
+      "version": "2024.1",
+      "commit": "main"
+    },
+    {
+      "name": "WebLinux",
+      "repository": "https://github.com/alizafarbati/WebLinux",
+      "purpose": "Browser Linux boot reference and disk image mounting",
+      "license": "MIT",
+      "version": "1.0",
+      "commit": "main"
+    },
+    {
+      "name": "Web x86 Interface",
+      "repository": "https://github.com/TheEvalon/x86",
+      "purpose": "Mobile browser virtual controls, pointer capture, and disk management UI reference",
+      "license": "MIT",
+      "version": "1.0",
+      "commit": "main"
+    },
+    {
+      "name": "WineHQ / Box64 / Winlator Architecture",
+      "repository": "https://gitlab.winehq.org/wine/wine",
+      "purpose": "Windows API subsystem translation architecture and direct syscall mapping reference",
+      "license": "LGPL-2.1-or-later",
+      "version": "9.x reference",
+      "commit": "upstream"
+    }
+  ]
+}

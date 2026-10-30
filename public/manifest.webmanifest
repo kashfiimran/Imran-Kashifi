@@ -1,0 +1,23 @@
+{
+  "name": "GTA V Web Player",
+  "short_name": "GTAV Web",
+  "description": "Production-ready mobile-first browser runtime and compatibility player for GTA V",
+  "start_url": "/?pwa=1",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%2309090b'/><path d='M40 96h112M96 40v112' stroke='%23f59e0b' stroke-width='16' stroke-linecap='round'/><text x='96' y='160' font-size='44' font-weight='900' fill='%23ffffff' text-anchor='middle' font-family='sans-serif'>V</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='96' fill='%2309090b'/><path d='M100 256h312M256 100v312' stroke='%23f59e0b' stroke-width='40' stroke-linecap='round'/><text x='256' y='420' font-size='120' font-weight='900' fill='%23ffffff' text-anchor='middle' font-family='sans-serif'>V</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["games", "utilities"]
+}

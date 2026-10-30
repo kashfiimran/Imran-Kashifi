@@ -1,0 +1,19 @@
+{
+  "name": "v86 Browser Architecture Verification Micro-Kernel",
+  "version": "0.3.1-micro",
+  "architecture": "x86-wasm",
+  "source": "https://github.com/copy/v86",
+  "license": "BSD-2-Clause",
+  "sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+  "size": "1.2 MB",
+  "entrypoint": "/wasm/v86-micro.wasm",
+  "requirements": {
+    "minMemoryBytes": 67108864,
+    "webGpuRequired": false,
+    "sharedArrayBufferRequired": false,
+    "crossOriginIsolatedRequired": false,
+    "minStorageBytes": 10485760,
+    "instructionSet": "i686 / 32-bit x86",
+    "directXVersion": "Software Framebuffer"
+  }
+}

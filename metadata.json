@@ -1,0 +1,6 @@
+{
+  "name": "GTA V Web Player",
+  "description": "Production-ready mobile-first browser runtime and compatibility player for GTA V featuring real WebGPU/WebGL2 pipeline, WebAssembly virtualization, and OPFS storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

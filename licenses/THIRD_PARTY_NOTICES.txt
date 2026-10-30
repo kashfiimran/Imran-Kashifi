@@ -1,0 +1,63 @@
+================================================================================
+THIRD-PARTY NOTICES & OPEN-SOURCE LICENSES
+GTA V Web Player
+================================================================================
+
+This application incorporates open-source libraries, architecture references,
+and standards-compliant browser specifications. No proprietary Rockstar Games,
+Take-Two Interactive, or Grand Theft Auto V assets, code, or DRM-protected binaries
+are distributed with or bundled into this software.
+
+--------------------------------------------------------------------------------
+1. v86 (x86 virtualization in JavaScript and WebAssembly)
+Repository: https://github.com/copy/v86
+License: Simplified BSD (BSD-2-Clause)
+Copyright (c) 2012-2024, Fabian Hemmer
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+Changes made: Adapted architecture manifest patterns, virtual hardware
+abstraction interfaces, and memory translation state tracking.
+
+--------------------------------------------------------------------------------
+2. WebVM (Virtual Machine in the Browser)
+Repository: https://github.com/leaningtech/webvm
+License: Apache-2.0
+Copyright 2022-2024 Leaning Technologies Ltd.
+
+Changes made: Studied virtual filesystem mounting, client-side syscall
+handling, and browser sandboxing workflows.
+
+--------------------------------------------------------------------------------
+3. Lucide Icons
+Repository: https://github.com/lucide-icons/lucide
+License: ISC License
+Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part
+of Feather (MIT). All other copyright (c) 2022-2024 Lucide Contributors.
+
+--------------------------------------------------------------------------------
+4. Motion (Framer Motion)
+Repository: https://github.com/motiondivision/motion
+License: MIT
+Copyright (c) 2018 Matt Perry
+
+--------------------------------------------------------------------------------
+5. Tailwind CSS
+Repository: https://github.com/tailwindlabs/tailwindcss
+License: MIT
+Copyright (c) Tailwind Labs, Inc.
+
+--------------------------------------------------------------------------------
+LEGAL DISCLAIMER & COMPLIANCE
+Grand Theft Auto, GTA V, Rockstar Games, and all associated logos are trademarks
+or registered trademarks of Take-Two Interactive Software, Inc.
+GTA V Web Player is an independent open-source web application runtime bridge
+and hardware capability tester. It does not distribute unauthorized game data
+or bypass digital rights management.
+================================================================================

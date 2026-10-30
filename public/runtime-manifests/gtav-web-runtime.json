@@ -1,0 +1,19 @@
+{
+  "name": "GTA V WebAssembly Engine & Translation Bridge",
+  "version": "1.0.4-compat",
+  "architecture": "x86_64-to-wasm",
+  "source": "https://github.com/copy/v86",
+  "license": "BSD-2-Clause",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "size": "45.2 MB",
+  "entrypoint": "/wasm/v86-bridge.wasm",
+  "requirements": {
+    "minMemoryBytes": 4294967296,
+    "webGpuRequired": true,
+    "sharedArrayBufferRequired": true,
+    "crossOriginIsolatedRequired": true,
+    "minStorageBytes": 68719476736,
+    "instructionSet": "x86_64 / AVX2 emulation",
+    "directXVersion": "Direct3D 11 via WebGPU SPIR-V/WGSL translation"
+  }
+}
